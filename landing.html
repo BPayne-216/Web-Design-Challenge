@@ -1,7 +1,56 @@
 <!-- This is the landing page -->
 <!doctype html>
 <html lang="en">
-    <body>
-        
-    </body>
+
+   <head>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/>
+      <title>Latitude</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <meta charset = "UTF-8">
+      <link rel="stylesheet" type = "text/css" href="styles.css">
+
+   </head>
+
+   <body>
+
+      <div class="container">
+         <nav class="navbar">
+            <ul>
+               <li>
+                  <a href="#">Max Temp</a>
+               </li>
+               <li>
+                  <a href="#">Humidity</a>
+               </li>
+               <li>
+                  <a href="#">Cloudiness</a>
+               </li>
+               <li>
+                  <a href="#">Wind Spreed</a>
+               </li>
+            </ul>
+            <select id="nav-select">
+               <option value="home">Max Temp</option>
+               <option value="about">Humidity</option>
+               <option value="portfolio">Cloudiness</option>
+               <option value="contact">Wind Speed</option>
+            </select>
+            <div class="clearfix"></div>
+         </nav>
+         <header class="header">
+            <h2>Web Visualization Dashboard (Latitude)</h2>
+         </header>
+         <main>
+            <section class="posts">
+               <article class="post">
+                  <h3>Project Description</h3>
+                  <p>This project will start with this landing page.  There are (4) links in the sidebar that have been created from a previous project, which utilized the OpenWeatherAPI and collected data from over 500 cities.  The data reviewed the relationship between the distance to the equator and the weather.  The (4) scatterplot graphs review the relationship (Latitude) on 1) Max Temperature, 2) Humidity, 3) Cloudiness, and 4) Wind Speed. 
+                  </p>
+               </article>
+            </section>
+         </main>
+      </div>
+   </body>
+</html>
 </html>
