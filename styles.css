@@ -4,7 +4,7 @@ body {
   }
   
   h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   
   h3 {
@@ -28,20 +28,17 @@ body {
     border-radius: 3px;
   }
   
-  /* Getting rid of the default link styles here */
   .navbar li a {
     color: #000;
     text-decoration: none;
   }
   
-  /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
     height: 200px;
     padding-top: 20px;
     background: #cdcdcd;
   }
   
-  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
   .header h1 {
     padding: 60px;
     margin: 0;
@@ -49,7 +46,6 @@ body {
     text-align: center;
   }
   
-  /* Giving the .post element margin on 3 sides */
   .post {
     margin-top: 50px;
     margin-right: 100px;
@@ -59,7 +55,6 @@ body {
   #nav-select {
     visibility: hidden;
   }
-  
   /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
   @media (max-width: 480px) {
     .navbar li {
