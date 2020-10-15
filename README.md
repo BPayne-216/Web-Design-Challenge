@@ -1,6 +1,6 @@
 # web-design-challenge
 
-https://bpayne-216.github.io/compare.html
+https://bpayne-216.github.io/index.html
 
 Web Design HW - Web Visualization Dashboard (Latitude)
 
