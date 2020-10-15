@@ -1,4 +1,7 @@
 # web-design-challenge
+
+https://bpayne-216.github.io/compare.html
+
 Web Design HW - Web Visualization Dashboard (Latitude)
 
 Background: In this assignment, we must use data and output (scatterplots) to design a dashboard-type website based on Weather data (tables and scatterplots) from a prior assignment.  Specifically, the website should be configured to include:
