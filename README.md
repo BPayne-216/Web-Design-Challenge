@@ -1,6 +1,6 @@
 # web-design-challenge
 Web Design HW - Web Visualization Dashboard (Latitude)
-
+http://
 Background: In this assignment, we must use data and output (scatterplots) to design a dashboard-type website based on Weather data (tables and scatterplots) from a prior assignment.  Specifically, the website should be configured to include:
 Landing Page, (4) Visualization Pages,Comparisons Page, Data Page.
 
